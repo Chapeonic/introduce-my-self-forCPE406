@@ -1,0 +1,85 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-bottom: 2px solid #ddd;
+}
+
+.header h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.header p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.profile-image img {
+    width: 100%; /* ทำให้ภาพขยายตามความกว้างของ container */
+    max-width: 300px; /* กำหนดขนาดสูงสุด */
+    height: auto; /* ปรับขนาดตามอัตราส่วนที่ถูกต้อง */
+    margin-top: 10px;
+}
+
+/* About Me Section */
+.about-me, .work-experience, .hobbies, .contact {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-me h2, .work-experience h2, .hobbies h2, .contact h2 {
+    font-size: 1.5em;
+    color: #555;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/* Work Experience Section */
+.work-experience p {
+    color: #555;
+}
+
+/* Hobbies Section */
+.hobbies ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #555;
+}
+
+/* Contact Section */
+.contact p, .contact a {
+    color: #555;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
